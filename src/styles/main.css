@@ -1,0 +1,63 @@
+body {
+  background: #f8f8f8 !important;
+}
+
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 10px !important;
+}
+
+.gradient_card {
+  background: linear-gradient(90.45deg, #09bee6 0%, #1a2eab 100%);
+  color: #ffffff !important;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.06);
+  /* border-radius: 10px !important; */
+}
+
+.btn_details {
+  background: #0160e7 !important;
+  color: #ffffff !important;
+  border: 0.5px solid #e0e0e0;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 5px !important;
+  text-transform: none !important;
+  font-size: 1rem !important;
+}
+
+.btn_notGradient {
+  background: #ffffff !important;
+  color: #1a2eab !important;
+  border: 0.5px solid #e0e0e0 !important;
+  box-sizing: border-box !important;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 5px !important;
+  text-transform: none !important;
+  font-size: 1rem !important;
+}
+
+.box_ranking {
+  background: #ffffff;
+  border: 0.5px solid #e0e0e0;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+}
+
+.black {
+  color: #000;
+}
+
+.primary {
+  color: #0160e7;
+}
+
+.mt-63 {
+  margin-top: 63px;
+}
