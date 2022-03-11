@@ -1,10 +1,6 @@
 body {
   background: #f8f8f8 !important;
-}
-
-.navbar {
-  background: #ffffff;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+  font-family: "Roboto", "sans-serif";
 }
 
 .card {
@@ -13,11 +9,17 @@ body {
   border-radius: 10px !important;
 }
 
+.bg-gradient {
+  background: linear-gradient(90.45deg, #09bee6 0%, #1a2eab 100%);
+}
+
 .gradient_card {
   background: linear-gradient(90.45deg, #09bee6 0%, #1a2eab 100%);
   color: #ffffff !important;
   box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.06);
-  /* border-radius: 10px !important; */
+  border-radius: 10px !important;
+  min-height: 204px;
+  padding: 8px 16px;
 }
 
 .btn_details {

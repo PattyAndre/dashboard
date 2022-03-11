@@ -18,7 +18,7 @@ export const STATISTIC_MOCK = {
     },
     {
       id: "3",
-      title: "Usuarios registrado",
+      title: "Usuarios registrados",
       quantity: "1,256 *",
     },
   ],

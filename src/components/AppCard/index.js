@@ -1,14 +1,13 @@
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import { Button, CardActions } from "@mui/material";
+import Button from "@mui/material/Button";
+import CardActions from "@mui/material/CardActions";
 import Typography from "@mui/material/Typography";
 
 const AppCard = ({ title, quantity }) => {
   return (
-    <Card
-      sx={{ minWidth: 380, minHeight: 126, mr: "1.25rem" }}
-      className="card"
-    >
+    <Card sx={{ width: "100%", minHeight: 126 }} className="card">
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
           {title}
@@ -16,7 +15,14 @@ const AppCard = ({ title, quantity }) => {
       </CardContent>
       <CardActions sx={{ justifyContent: "space-between" }}>
         <Typography sx={{ fontWeight: "bold" }}>{quantity}</Typography>
-        <Button size="small" className="btn_details" sx={{ px: 2, py: 1 }}>
+        <Button
+          size="small"
+          className="btn_details"
+          sx={{ px: 2, py: 1 }}
+          endIcon={
+            <ArrowForwardIosIcon sx={{ height: "14px", marginLeft: "18px" }} />
+          }
+        >
           Ver detalles
         </Button>
       </CardActions>
