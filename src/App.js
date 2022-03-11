@@ -35,7 +35,7 @@ ChartJS.register(
   Legend
 );
 
-export const options = {
+const options = {
   responsive: true,
   plugins: {
     legend: {
@@ -109,7 +109,8 @@ const App = () => {
           <Grid item xs={8}>
             <Card
               sx={{
-                minHeight: 448,
+                // minHeight: 448,
+                height: 480,
               }}
               className="card"
             >
